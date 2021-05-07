@@ -1,0 +1,456 @@
+.main{
+
+    padding: 5px;
+    background-color: white;
+    /* background-color: #EEECEC;*/
+
+    /*  background-image: url("../images/image1.jpg");*/
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    margin: 0 auto;
+    color: Black;
+
+}
+.menu{
+    flex: 15%;
+    padding: 15px 10px;
+    background-color:white;
+    font-family:cursive;
+    font-style:oblique;
+    font-size: 26px;
+    color: #00313D;
+
+}
+body {
+    display: block;
+    margin: 0;
+
+
+}
+.container{
+
+    width: 100%;
+    /*    position: relative;*/
+
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.contentbooking{
+
+    padding: 15px;
+    font-size: 25px;
+    margin: 0 auto;
+
+
+}
+
+.home-slide{
+    margin-top: 92px;
+}
+
+
+form label{
+
+
+}
+
+h1 {
+    display: block;
+    font-size: 35px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    background: rgba(65, 105, 225,0.2);
+
+    margin: 0 auto;
+}
+.header{
+    display: block;
+    width: 100%;
+    padding-left:  5px;
+    padding-right: 5px;
+    background-color: #00313D ;
+    color: white;
+    text-align: center;
+    height: 10px;
+    font-family:cursive;
+    font-style:oblique;
+
+    margin: 0 auto;
+
+}
+.footer-left{
+    font-size: 20px;
+}
+.footer-right{
+    font-size: 20px;
+}
+.logo-m img{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.login-header {
+    float: right;
+    margin-bottom: 10px;
+}
+.login-header button{
+    margin-top: 10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: green;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: double;
+
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-nav>li>a:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    color: black;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background-color: #00313D;
+}
+
+.login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    font-family: cursive;
+    margin: 10px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+
+
+}
+
+input[type=Submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    font-size: 15px;
+    
+    
+    
+    margin: 10px;
+}
+
+input[type=Submit]:hover {
+    background-color: #DBDBDB;
+    color: black;
+
+    align-content: left;
+}
+input[type=text], file, password ,date {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+#password{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background:#DBDBDB;
+    resize: vertical; 
+}
+#pass{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    float:left;
+    resize: vertical; 
+}
+#uname{
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #DBDBDB;
+    float:left;
+    resize: vertical;  
+
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+.footer{
+    display: block;
+    background-color: #00313D ;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 200px; 
+    padding-left:  5px;
+    padding-right: 5px;
+    margin: 0 auto;
+}
+
+.logincard{
+    height: 260px;
+    margin-bottom: 37px;
+    margin-top: 23px;
+    color: white;
+    width: 433px;
+    padding-left: 5px;
+    padding-top: 14px;
+    background: #00313D;
+    border-radius: 45px;
+    text-align: center;
+    margin: 0 auto;
+}
+.log {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    position: relative;
+    right: -238px;
+    top: -4px;
+    
+    margin: 10px;
+}
+label#unamel {
+    position: relative;
+    right: 23px;
+    font-size: 15px;
+}
+
+.logincard #uname,#pass{
+    margin: 10px;
+
+}
+.loginview{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 31px;
+    position: relative;
+    top: -15px;
+}
+form {
+    padding: 9px;
+    margin-left: 40px;
+}
+.selection select {
+    /* display: none; */
+    width: 400px;
+    height: 35px;
+    margin-bottom: 35px; 
+    /* padding: 10px; */
+    /* padding-right: 15px; */
+    padding-left: 30px;
+}
+.selection input{
+}
+input#date {
+    /* display: none; */
+    width: 400px;
+    height: 35px;
+    margin-bottom: 35px;
+    /* padding: 10px; */
+    /* padding-right: 15px; */
+    padding-left: 30px;
+
+
+}
+
+form label {
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+
+.center-login {
+    text-align: center;
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 42px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.card-product{
+	border:1px solid;
+	width:200px;
+	height:300px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	border-radius: 5px;
+	text-align: center;
+	padding:5px;
+	
+	
+}
+.card-header {
+    margin-left: 34px;
+    background: #00313d;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.Username {
+    float: left;
+    color: #00313d;
+    background: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-top: 0px;
+    border: aliceblue;
+    border-radius: 5px;
+    /* font-size: 18px; */
+    height: 40px;
+    padding-top: -23px;
+    margin-top: 10px;
+}
+.Username h3 {
+    font-size: 19px;
+    /*padding-bottom: -1px;*/
+    /*padding-top: -5px;*/
+    margin-top: 11px;
+}
+.Username h3 i{
+    width:21px;
+}
+.useredit {
+    text-align: center;
+}
+button.edit-user {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: double;
+}
+button.edit-book {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: double;
+}
+.bookingedit{
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-size: 16px;
+}
+th{
+    text-align: center;
+    font-size: 16px;
+}
+
+.AboutCard {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+  
+}
+
+a.navbar-brand {
+    font-size: 30px;
+}
+.w3-content.w3-section {
+    height: 400px;
+    width: 90%;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+.home-contents {
+    margin: 96px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 25px;
+    font-family:  "Times New Roman", Times, serif;
+    
+}
+.home-address {
+    text-align: center;
+    padding-left: 57px;
+}
+.add-header {
+    padding-top: 20px;
+    color: #00313d;
+    padding-left: 28px;
+}
+.add-header h2 i{
+    padding-right: 10px;
+}
+.about-header {
+    padding-top: 20px;
+    color: #00313d;
+}
+.about-header h2 i{
+    padding-right: 10px;
+}
+.msg{
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
